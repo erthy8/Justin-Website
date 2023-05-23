@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
-    <link rel="stylesheet" href="lauboard.css"> <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
 </head>
 <body>
     <div class="topnav">
@@ -16,10 +16,12 @@
         <a href="lauboard.html">LAUBOARD</a>
     </div>
 
-    <header>
-        <h1>New Lau Board 2023 version!</h1>
-        <button type="button">Click Me!</button>
-    </header>
+        <h1>New 2023 Lau Board</h1>
+        <button id="button" onclick="audio.play();">Click Me!</button>
+        <script type = "text/javascript">
+            const audio = new Audio();
+            audio.src = "audio/Lau Board_moses.wav"
+        </script>
     
 </body>
 </html>
